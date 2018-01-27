@@ -1,0 +1,24 @@
+Describe [thing]. It should [do something].
+
+find the distance between two different wikipedia articles
+-- get random wikipedia article #1
+---- connect to wikipedia api
+---- fetch json data containing all wikipedia articles
+---- select random index within all articles
+---- fetch json data for the chosen article
+-- get random wikipedia article #2
+---- same as above
+-- get all child articles of article #1
+---- same as above, but store each new article in data struct
+-- display list of articles to user 
+---- 
+-- let user select one of the child articles to visit next
+-- get child articles of the new article
+-- continue until user gives up or find article #2
+-- show user their time to find article #2
+-- show user the number of articles visited to reach article #2
+-- calculate score based on two metrics
+-- let user store their score in database
+-- retrieve other scores from database
+-- display other scores to user
+-- give user option to try again
